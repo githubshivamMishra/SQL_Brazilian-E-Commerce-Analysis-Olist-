@@ -91,9 +91,7 @@ orderitem
 
 
 ```markdown
-## 🗂️ Entity Relationship Diagram
-
-![ERD](./olist_ecommerce-ERD.png)
+![ERD](olist_ecommerce-ERD.png)
 ```
 
 ---
