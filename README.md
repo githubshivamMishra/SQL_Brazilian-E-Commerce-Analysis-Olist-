@@ -88,10 +88,10 @@ orderitem
                  └── product_id (PK)
 ```
 
-> Add actual ERD screenshot in the repository and replace this diagram with an image.
+
 
 ```markdown
-![ERD](Screenshots/olist_erd.png)
+![ERD](olist_ecommerce-ERD.png)
 ```
 
 ---
