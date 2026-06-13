@@ -1,239 +1,171 @@
-# SQL_Brazilian-E-Commerce-Analysis-Olist
+# 📦 Brazilian E-Commerce Analysis (Olist) using SQL
 
-📖 Project Overview
-This project analyzes the Brazilian E-Commerce Public Dataset (Olist) using SQL to uncover customer
-behavior, sales performance, seller efficiency, payment trends, logistics performance, and customer
-retention patterns.
-The goal of this project is to transform raw transactional data into actionable business insights that
-support data-driven decision-making.
+## 📖 Project Overview
 
-🎯 Business Objectives
+This project analyzes the Brazilian E-Commerce Public Dataset (Olist) using SQL to uncover customer behavior, sales performance, seller efficiency, payment trends, logistics performance, and customer retention patterns.
 
-Analyze customer purchasing behavior
+The goal of this project is to transform raw transactional data into actionable business insights that support data-driven decision-making.
 
-Measure Customer Lifetime Value (CLV)
+---
 
-Identify repeat customers and retention trends
+## 🎯 Business Objectives
 
-Evaluate seller performance and cancellation rates
+* Analyze customer purchasing behavior
+* Measure Customer Lifetime Value (CLV)
+* Identify repeat customers and retention trends
+* Evaluate seller performance and cancellation rates
+* Analyze revenue trends and customer contribution
+* Understand product category performance
+* Assess delivery and logistics efficiency
+* Examine customer satisfaction drivers
 
-Analyze revenue trends and customer contribution
+---
 
-Understand product category performance
+## 🛠️ Tools & Technologies
 
-Assess delivery and logistics efficiency
+* MySQL
+* SQL
+* MySQL Workbench
+* Git & GitHub
 
-Examine customer satisfaction drivers
+---
 
-
-
-🛠️ Tools & Technologies-
-
-MySQL
-
-SQL
-
-MySQL Workbench
-
-Git & GitHub
-
-
-📂 Dataset-
+## 📂 Dataset
 
 The Olist dataset contains information related to:
 
-Customers
+* Customers
+* Orders
+* Order Items
+* Products
+* Sellers
+* Payments
+* Reviews
 
-Orders
+### Key Tables Used
 
-Order Items
+* customer
+* orders
+* orderitem
+* product
+* seller
+* orderpayment
+* orderreview
 
-Products
+---
 
-Sellers
+## 📊 SQL Analysis Performed
 
-Payments
+### Customer Analytics
 
-Reviews
+* Top Customers by Total Spend
+* Customer Lifetime Value (CLV)
+* Repeat Customer Analysis
+* Monthly Active Customers (MAC)
+* Customer Retention Rate
+* First Purchase vs Repeat Purchase Analysis
 
+### Revenue Analytics
 
-Key Tables Used-
+* Monthly Revenue Trend
+* Average Order Value (AOV)
+* Revenue Contribution of Top 20% Customers
+* Pareto (80/20) Analysis
 
-customer
+### Seller Analytics
 
-orders
+* Top Sellers by Order Volume
+* Seller Cancellation Rate Analysis
 
-orderitem
+### Product Analytics
 
-product
+* Most Popular Product Category
+* Category-wise Revenue Analysis
+* Products Never Sold
+* Product Categories with Highest Cancellation Rate
 
-seller
+### Logistics Analytics
 
-orderpayment
+* Delivery Performance by State
+* Late Delivery Percentage
+* Average Delivery Delay
+* Shipping Delay Impact on Customer Reviews
 
-orderreview
+---
 
+## 📈 Advanced SQL Concepts Used
 
-📊 SQL Analysis Performed-
+* Joins
+* Common Table Expressions (CTEs)
+* Window Functions
+* Aggregate Functions
+* Date Functions
+* CASE Statements
+* Subqueries
+* Cohort Analysis
+* Customer Retention Analysis
+* Pareto Analysis
 
-Customer Analytics-
+---
 
-Top Customers by Total Spend
+## 📌 Key Findings & Insights
 
-Customer Lifetime Value (CLV)
+### Customer Insights
 
-Repeat Customer Analysis
+* High-value customers generated a significant share of total revenue.
+* Repeat purchases contributed substantially less revenue compared to first-time purchases.
+* Customer retention dropped noticeably across consecutive months, highlighting retention opportunities.
+* Monthly Active Customer trends revealed fluctuations in customer engagement over time.
 
-Monthly Active Customers (MAC)
+### Revenue Insights
 
-Customer Retention Rate
+* The top 20% of customers contributed approximately **53.77%** of total revenue.
+* Revenue distribution showed moderate concentration among high-value customers.
+* Average Order Value (AOV) provided a benchmark for evaluating customer spending patterns.
 
-First Purchase vs Repeat Purchase Analysis
+### Seller Insights
 
+* Certain sellers exhibited significantly higher cancellation rates than others.
+* Seller performance analysis identified fulfillment and operational inefficiencies.
 
+### Product Insights
 
-Revenue Analytics-
+* Most products in the catalog were sold at least once.
+* Some product categories experienced higher cancellation rates, indicating potential inventory or fulfillment issues.
 
-Monthly Revenue Trend
+### Logistics Insights
 
-Average Order Value (AOV)
+* Approximately **8%** of delivered orders arrived later than the estimated delivery date.
+* Around **92%** of orders were delivered on time.
+* Late deliveries were associated with lower customer review scores.
+* Delivery performance varied across states, indicating regional logistics differences.
 
-Revenue Contribution of Top 20% Customers
+---
 
-Pareto (80/20) Analysis
+## 💡 Business Recommendations
 
+* Improve customer retention through loyalty and engagement programs.
+* Focus marketing efforts on high-value customer segments.
+* Monitor sellers with elevated cancellation rates.
+* Optimize logistics operations in underperforming regions.
+* Reduce delivery delays to improve customer satisfaction and review scores.
 
-Seller Analytics-
+---
 
-Top Sellers by Order Volume
+## 🚀 Key Learning Outcomes
 
-Seller Cancellation Rate Analysis
+* Solved 40+ real-world business problems using SQL.
+* Performed customer retention and cohort analysis.
+* Applied advanced SQL concepts including CTEs and Window Functions.
+* Generated business insights from large-scale e-commerce data.
+* Developed analytical thinking for business decision-making.
 
+---
 
+## 📁 Project Structure
 
-Product Analytics-
-
-Most Popular Product Category
-
-Category-wise Revenue Analysis
-
-Products Never Sold
-
-Product Categories with Highest Cancellation Rate
-
-
-Logistics Analytics-
-
-Delivery Performance by State
-
-Late Delivery Percentage
-
-Average Delivery Delay
-
-Shipping Delay Impact on Customer Reviews
-
-
-
-📈 Advanced SQL Concepts Used-
-
-Joins
-
-Common Table Expressions (CTEs)
-
-Window Functions
-
-Aggregate Functions
-
-Date Functions
-
-CASE Statements
-
-Subqueries
-
-Cohort Analysis
-
-Customer Retention Analysis
-
-Pareto Analysis
-
-
-📌 Key Findings & Insights-
-Customer Insights-
-
-High-value customers generated a significant share of total revenue.
-
-Repeat purchases contributed substantially less revenue compared to first-time purchases.
-
-Customer retention dropped noticeably across consecutive months, highlighting retention
-opportunities.
-
-Monthly Active Customer trends revealed fluctuations in customer engagement over time.
-
-
-Revenue Insights-
-
-The top 20% of customers contributed approximately 53.77% of total revenue.
-
-Revenue distribution showed moderate concentration among high-value customers.
-
-Average Order Value (AOV) provided a benchmark for evaluating customer spending patterns.
-
-
-Seller Insights-
-
-Certain sellers exhibited significantly higher cancellation rates than others.
-
-Seller performance analysis identified fulfillment and operational inefficiencies.
-
-
-Product Insights-
-
-Most products in the catalog were sold at least once.
-
-Some product categories experienced higher cancellation rates, indicating potential inventory or
-fulfillment issues.
-
-
-Logistics Insights-
-
-Approximately 8% of delivered orders arrived later than the estimated delivery date.
-
-Around 92% of orders were delivered on time.
-
-Late deliveries were associated with lower customer review scores.
-
-Delivery performance varied across states, indicating regional logistics differences.
-
-
-
-💡 Business Recommendations-
-
-Improve customer retention through loyalty and engagement programs.
-
-Focus marketing efforts on high-value customer segments.
-
-Monitor sellers with elevated cancellation rates.
-
-Optimize logistics operations in underperforming regions.
-
-Reduce delivery delays to improve customer satisfaction and review scores.
-
-
-🚀 Key Learning Outcomes-
-
-Solved 40+ real-world business problems using SQL.
-
-Performed customer retention and cohort analysis.
-
-Applied advanced SQL concepts including CTEs and Window Functions.
-
-Generated business insights from large-scale e-commerce data.
-
-Developed analytical thinking for business decision-making.
-
-
-📁 Project Structure
 Brazilian-Ecommerce-Analysis
+
 ├── Dataset
 ├── SQL Queries
 ├── Business Questions
@@ -241,10 +173,14 @@ Brazilian-Ecommerce-Analysis
 ├── Screenshots
 └── README.md
 
+---
 
-👨‍💻 Author
-Shivam Kumar Mishra
+## 👨‍💻 Author
+
+**Shivam Kumar Mishra**
+
 Aspiring Data Analyst
-📧 Email: your-email@example.com
-💼 LinkedIn: Your LinkedIn Profile
+
+📧 Email: shivammishra442267@gmail.com
+💼 LinkedIn: https://www.linkedin.com/in/shivam-mishra-39427b377/
 💻 GitHub: github.com/githubshivamMishra
